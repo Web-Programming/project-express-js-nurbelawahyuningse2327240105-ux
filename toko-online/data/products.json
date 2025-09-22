@@ -1,0 +1,62 @@
+[
+    {
+    "id": 1,
+    "name": "Laptop gaming",
+    "price": 1500000,
+    "descrition": "Laptop blabla"
+},
+  {
+    "id": 2,
+    "name": "Smartphone Android",
+    "price": 2500000,
+    "description": "Smartphone canggih dengan kamera 50MP"
+  },
+  {
+    "id": 3,
+    "name": "Headset Bluetooth",
+    "price": 350000,
+    "description": "Headset nyaman dengan suara jernih"
+  },
+  {
+    "id": 4,
+    "name": "Keyboard Mechanical",
+    "price": 500000,
+    "description": "Keyboard dengan lampu RGB dan switch biru"
+  },
+  {
+    "id": 5,
+    "name": "Monitor 24 Inch",
+    "price": 1200000,
+    "description": "Monitor Full HD dengan refresh rate 75Hz"
+  },
+  {
+    "id": 6,
+    "name": "Mouse Gaming",
+    "price": 250000,
+    "description": "Mouse presisi tinggi dengan 6 tombol"
+  },
+  {
+    "id": 7,
+    "name": "Printer All-in-One",
+    "price": 950000,
+    "description": "Printer bisa scan, copy, dan print"
+  },
+  {
+    "id": 8,
+    "name": "Tablet 10 Inch",
+    "price": 1800000,
+    "description": "Tablet cocok untuk belajar dan hiburan"
+  },
+  {
+    "id": 9,
+    "name": "Speaker Bluetooth",
+    "price": 400000,
+    "description": "Speaker portable dengan bass mantap"
+  },
+  {
+    "id": 10,
+    "name": "Power Bank 20000mAh",
+    "price": 300000,
+    "description": "Power bank kapasitas besar dengan fast charging"
+  }
+]
