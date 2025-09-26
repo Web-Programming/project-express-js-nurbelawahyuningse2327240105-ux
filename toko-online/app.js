@@ -20,8 +20,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 //serving bootstrap
 app.use('/', express.static(path.join(__dirname,'node_modules/bootstrap/dist')));
+
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+var productRouter = require ("./route/product"); //letakan di atas biar rapi
+app.use  ("/product", productRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
