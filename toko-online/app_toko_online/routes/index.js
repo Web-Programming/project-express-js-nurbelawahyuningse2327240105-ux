@@ -1,6 +1,6 @@
-var express = require('express');
-var router = express.Router();
-var router = require("../data/products.json");
+const express = require('express');
+const router = express.Router();
+var products = require("../../data/products.json");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -10,8 +10,6 @@ router.get('/', function(req, res, next) {
 
 router.get('/search', function(req, res, next) {
   const query = req.query.q ? req.query.q.toLowerCase() : '';
-  
-  const products = ['Laptop', 'Headset', 'Keyboard', 'Monitor', 'Mouse'];
 
   const results = query
     ? products.filter(product => product.toLowerCase().includes(query))
